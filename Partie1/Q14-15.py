@@ -16,3 +16,4 @@ for mot in liste_mots:
     phrase_inverse += mot + " "
 
 print(phrase_inverse)
+
