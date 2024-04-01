@@ -1,10 +1,10 @@
 #Variables de type string
-motA = "Bonjour"
-motB = "Monde"
+mot_a = "Bonjour"
+mot_b = "Monde"
 
 #Fonction retournant la concaténation 
 #de deux mots, séparés par un espace
-def fusion(motA, motB):
-    return motA + " " + motB
+def fusion(mot_a, mot_b):
+    return mot_a + " " + mot_b
 
-print(fusion(motA, motB))
+print(fusion(mot_a, mot_b))
