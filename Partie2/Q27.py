@@ -1,8 +1,8 @@
 #Fonction retournant la moyenne d'une liste
-def moyenne(listeNombres):
-    return sum(listeNombres) / len(listeNombres)
+def moyenne(liste_nombres):
+    return sum(liste_nombres) / len(liste_nombres)
 
 #Liste de nombres
-listeNombres = [1, 12, 48, 20, 10]
+liste_nombres = [1, 12, 48, 20, 10]
 
-print(moyenne(listeNombres))
+print(moyenne(liste_nombres))
