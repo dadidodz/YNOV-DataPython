@@ -2,17 +2,19 @@
 phrase = "Bonjour, je suis un etudiant en informatique"
 
 #Découpage de la phrase mot par mot et stockant dans une liste
-listeMots = phrase.split()
+liste_mots = phrase.split()
 
-#Inversion de l'ordre des mots de la phrase
-listeMots.reverse()
+print(liste_mots)
 
-#Création vide d'une varible qui stockera notre phrase inversée
-phraseInverse = ""
+# #Inversion de l'ordre des mots de la phrase
+# liste_mots.reverse()
 
-#Parcours de notre liste de mot inversé et concaténation dans la 
-#variable "phraseInverse"
-for mot in listeMots:
-    phraseInverse += mot + " "
+# #Création vide d'une varible qui stockera notre phrase inversée
+# phrase_inverse = ""
 
-print(phraseInverse)
+# #Parcours de notre liste de mot inversé et concaténation dans la 
+# #variable "phrase_inverse"
+# for mot in liste_mots:
+#     phrase_inverse += mot + " "
+
+# print(phrase_inverse)
