@@ -5,10 +5,9 @@ livre = {
     "annee" : "1697"
 }
 
-print(livre)
-
 #Ajout de la clé "pages" avec la valeur "235" dans le dictionnaire
-# livre["pages"] = 235
+livre["pages"] = 235
+print(livre)
 
 # #Affiche la valeur de associée à la clé "auteur" du dictionnaire
 # print(livre["auteur"])
