@@ -1,4 +1,5 @@
-#Création de deux variables stockants le résultat d'une division
+#Création de deux variables stockants 
+#le résultat d'une division
 var_a = 8 / 4
 print(type(var_a))
 print(var_a)
